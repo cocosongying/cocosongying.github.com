@@ -375,7 +375,8 @@ Full-Width Styles
   background: #696969;
 }
 
-.parag-right{color:#696969;font-style:italic;font-weight:bold;font-size:16px;display:block;text-align:right;}
+.parag-text{color:#696969;font-style:italic;font-size:16px;display:block;text-align:left;margin-top:20px;}
+.parag-right{color:#a9a9a9;font-style:italic;font-size:14px;display:block;text-align:right;}
 .title-text {color:#696969;font-style:italic;font-weight:bold;font-size:16px;display:block;text-align:center;}
 .title-main {color:#000;font-weight:bold;font-size:18px;display:block;text-align:left;}
 .title-desc {color:#aaa;font-style:italic;font-size:14px;display:block;text-align:left;margin-top:-10px;margin-left:20px;margin-right:20px;}
