@@ -159,7 +159,7 @@ img {
 }
 
 pre, code {
-  width: 80%;
+  width: 100%;
   color: #222;
   background-color: #a9a9a9;
 
@@ -176,9 +176,10 @@ pre, code {
 
 pre {
   width: 100%;
-  padding: 10px;
+  padding: 0px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   overflow: auto;
+
 }
 
 code {
@@ -374,9 +375,13 @@ Full-Width Styles
   background: #696969;
 }
 
+.parag-right{color:#696969;font-style:italic;font-weight:bold;font-size:16px;display:block;text-align:right;}
 .title-text {color:#696969;font-style:italic;font-weight:bold;font-size:16px;display:block;text-align:center;}
-.title-main {color:#696969;font-weight:bold;font-size:18px;display:block;text-align:left;}
-.title-desc {color:#aaa;font-style:italic;font-size:14px;display:block;text-align:left;margin-top:-20px;}
+.title-main {color:#000;font-weight:bold;font-size:18px;display:block;text-align:left;}
+.title-desc {color:#aaa;font-style:italic;font-size:14px;display:block;text-align:left;margin-top:-10px;margin-left:20px;margin-right:20px;}
+.title-blog {color:#808080;font-weight:bold;font-style:italic;font-size:16px;display:block;text-align:left;margin-top:-5px;margin-left:40px;margin-right:40px;}
+
+
 
 /*******************************************************************************
 Small Device Styles
