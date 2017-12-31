@@ -1,134 +1,55 @@
 <!DOCTYPE html>
-<html xmlns:wb=“http://open.weibo.com/wb”>
+<html>
+<head lang="en">
+    <title>磨叽熊猫</title>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" href="icon.ico">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet">
+    <link href="css/mycss.css" rel="stylesheet"/>
+    <meta name="keywords" content="磨叽熊猫">
+    <meta name="description" content="磨叽熊猫博客吃饭睡觉打豆豆磨叽磨叽磨叽。。。">
+    <meta name="author" content="cocosongying,cocosongying@gmail.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body>
+    <!-- NAVBAR  -->
+    <nav class="navbar navbar-default" style="background-color: #3399ff;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="color: #ffffff;" href="index.html">磨叽熊猫</a>
+            </div>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="初来乍到，多多指教，欢迎大家访问我的站点，技术交流与分享" />
-    <meta name="author" content="cocosongying">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <title>cocosongying.github.com</title>
-	<script src="javascripts/prettify/run_prettify.js"></script>
-	<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
-	
-	<!-- *************
-	@author cocosongying
-	@E-mail cocosongying@gmail.com
-	************** -->
-		
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a href="http://cocosongying.github.io"><h1 id="project_title">cocosongying.github.com</h1></a>
-          <h2 id="project_tagline">Author : &nbsp&nbsp cocosongying</h2>
-		  <p align="right"><wb:follow-button uid="2686212593" type="red_1" width="67" height="24" ></wb:follow-button></p>
-		  <a id="forkme_banner" href="https://github.com/cocosongying">	View on GitHub</a>
-        </header>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" id="search" class="form-control" placeholder="🔍 Search">
+                    </div>
+                    <button type="button" id="btn_submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- CONTENT  -->
+    <div id="main">
+        <div id="content"></div>
+        <table id="table"></table>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-		
-		<h3>Overview</h3><hr>
-		
-		  <p><span class="title-main">◆ <a href="https://cocosongying.github.io/blog/">博客</a></span></p>
-		  <span class="title-desc"> 技术交流与共享，记录学习中的点点滴滴</span><hr>
-		  
-		  <p><span class="title-main">◆ <a href="cartoon_list.html">漫画</a></span></p>
-		  <span class="title-desc"> 爱生活，爱漫画</span><hr>
-		  
-		  <p><span class="title-main">◆ <a href="code_list.html">代码</a></span></p>
-		  <span class="title-desc"> 更新一些重要的代码以便日后查找</span><hr>
-		  
-		  <p><span class="title-main">◆ 关于</span></p>
-		  <span class="title-desc"> 初来乍到，多多指教，欢迎通过以下方式 <code>Contact me:</code></span><br>
-		  
-		    <p><span class="title-desc">■&nbsp&nbsp 新浪微博： <a href="http://weibo.com/n/cocosongying">@cocosongying</a></span></p>
-			<p><span class="title-desc">■&nbsp&nbsp Google+： <a href="https://plus.google.com/115298997330283899633" rel="publisher">Google+</a></span></p>
-			<p><span class="title-desc">■&nbsp&nbsp E-mail： <a href="mailto:cocosongying@gmail.com">cocosongying@gmail.com</a></span></p>
-		  <hr>
-		  
-		  <p><span class="title-main">◆ 致谢</span></p>
-		  <span class="title-desc">  无时无刻都要感谢那些帮助过自己的人，在这里我要感谢父母的养育，老师的教诲，朋友的鼓励，以及来自各方面的帮助，还有正在浏览页面的你，谢谢支持！欢迎分享与收藏 ~~</span><br>
-		
-		
-<!-- JiaThis Button BEGIN -->
-<div class="jiathis_style_32x32">
-	<a class="jiathis_button_tsina"></a>
-	<a class="jiathis_button_tqq"></a>
-	<a class="jiathis_button_qzone"></a>
-	<a class="jiathis_button_renren"></a>
-	<a class="jiathis_button_googleplus"></a>
-	<a class="jiathis_button_fb"></a>
-	<a class="jiathis_button_twitter"></a>
-	<a class="jiathis_button_linkedin"></a>
-	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-	<a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1369706163465312" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-
-		<br><br><hr><br>
-		
-<!-- Hello World ! -->
-<span class="title-text">Hello World !</span>
-<pre class="prettyprint">  /* I'm new here, I can only write these Hello World !*/
-  #include&ltiostream.h&gt
-  int main() {
-      cout<<"Hello World !"&lt&ltendl;
-      return 0;
-  }
-  
-  public class HelloWorld{
-      public static void main(String[] args){
-          System.out.println("Hello World !");
-      }
-  }
-  
-  package com.cocosongying.HelloWorld;
-  import android.app.Activity;
-  import android.os.Bundle;
-  public class HelloWorld extends Activity{
-      @Override
-      public void onCreate(Bundle savedInstanceState){
-          super.onCreate(savedInstanceState);
-          setContentView(R.layout.main);       
-      }
-  }
-</pre>
-<hr>
-<!-- Hello World ! -->
-
-	  </section>
-    </div>
-   
-   
-	
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-	    <center><p>Published with <a href="http://pages.github.com">GitHub Pages</a> &nbsp&nbsp Design by <a href="http://cocosongying.github.io" title="cocosongying">cocosongying</a> © 2013</p></center>
-      </footer>
-    </div>
-
-	<!-- *************
-	@author cocosongying
-	@E-mail cocosongying@gmail.com
-	************** -->	
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-41271420-1', 'cocosongying.github.io');
-  ga('send', 'pageview');
-
-</script>
-  </body>
+    <div id="footer"></div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="js/marked.js"></script>
+<script src="js/list.js"></script>
+<script src="js/main.js"></script>
 </html>
