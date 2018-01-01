@@ -16,14 +16,13 @@ pre {
   border: 0px solid;
 }
 body{
-  background: url('http://images.shejidaren.com/wp-content/uploads/2013/08/colored-2.jpg');
+  background: url('img/bg.jpg');
 }
 #main {
   margin:0 auto;
   margin-bottom: 60px;
   max-width: 60rem;
   padding: 1.5rem 1.5rem;
-  //background: url('http://images.shejidaren.com/wp-content/uploads/2013/08/colored-2.jpg');
 }
 #footer {
   position: absolute;
