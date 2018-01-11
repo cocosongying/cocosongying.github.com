@@ -4,7 +4,7 @@ text+='# 宋颖 \n';
 text+='## 软件开发工程师 / Software Development Engineer \n';
 text+=' 男 | 已婚 | 1992年2月生 | 户口：江苏-南京 | 现居住于：江苏 南京-浦口区 \n\n';
 text+=' ☏ 152\\*\\*\\*\\*2410 \n\n';
-text+=' ✉ cocosongying.gmail.com \n\n';
+text+=' ✉ cocosongying@gmail.com \n\n';
 text+=' ☞ https://github.com/cocosongying \n\n';
 text+=' ☞ https://weibo.com/cocosongying \n\n';
 text+='***\n';text+='***\n';
