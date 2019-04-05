@@ -1,60 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <title>磨叽熊猫</title>
-    <meta charset="UTF-8"/>
-    <link rel="shortcut icon" href="icon.ico">
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet">
-    <link href="css/mycss.css" rel="stylesheet"/>
-    <meta name="keywords" content="磨叽熊猫, cocosongying">
-    <meta name="description" content="磨叽熊猫博客吃饭睡觉打豆豆磨叽磨叽磨叽。。。">
-    <meta name="author" content="cocosongying,cocosongying@gmail.com">
+<head>
+    <title>cocosongying</title>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-</head>
-<body>
-    <!-- NAVBAR  -->
-    <nav class="navbar navbar-default" style="background-color: #3399ff;">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" style="color: #ffffff;" href="index.html">磨叽熊猫</a>
-            </div>
+    <meta name="author" content="cocosongying,cocosongying@gmail.com">
+    <link rel="stylesheet" href="css/main.css" />
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li style="background-color: #0066cc;"><a href="https://cocosongying.github.io/" style="color: #ffffff;">主页</a></li>
-                    <li><a href="https://cocosongying.github.io/blog/" style="color: #ffffff;">博客</a></li>
-                    <li><a href="https://cocosongying.github.io/game/" style="color: #ffffff;">游戏</a></li>
-                </ul>
-                <form class="navbar-form navbar-right">
-                    <div class="form-group">
-                        <input type="text" id="search" class="form-control" placeholder="🔍 Search">
-                    </div>
-                    <button type="button" id="btn_submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
+</head>
+<body class="loading">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+            <header id="header">
+                <h1>Song Ying</h1>
+                <p>一花一世界，一叶一追寻。一曲一场叹，一生为一人。</p>
+                <nav>
+                    <ul>
+                        <li><a href="https://cocosongying.github.io/hexo/" class="icon fas fa-book-open"><span class="label">Hexo</span></a></li>
+                        <li><a href="https://cocosongying.github.io/game/" class="icon fas fa-gamepad"><span class="label">Game</span></a></li>
+                        <li><a href="#" class="icon fas fa-heart"><span class="label">About</span></a></li>
+                        <li><a href="#" class="icon fas fa-lightbulb"><span class="label">Ideas</span></a></li>
+                        <li><a href="mailto:cocosongying@gmail.com" class="icon fas fa-envelope"><span class="label">Mail</span></a></li>
+                    </ul>
+                </nav>
+            </header>
+            <footer id="footer">
+                <span class="copyright"><center><p>Design by <a href="http://github.com/cocosongying/" title="cocosongying">cocosongying</a> Copyright &copy; 2019</p></center></span>
+            </footer>
         </div>
-    </nav>
-    <!-- CONTENT  -->
-    <div id="main">
-        <div id="content"></div>
-        <table id="table"></table>
     </div>
-    <!-- FOOTER  -->
-    <div id="footer"></div>
+    <script type="text/javascript">
+        window.onload = function() { document.body.className = ''; }
+        window.ontouchmove = function() { return false; }
+        window.onorientationchange = function() { document.body.scrollTop = 0; }
+    </script>
 </body>
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<script src="js/marked.js"></script>
-<script src="js/list.js"></script>
-<script src="js/main.js"></script>
 </html>

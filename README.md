@@ -1,6 +1,6 @@
-cocosongying.github.com
+https://cocosongying.github.io/
 =======================
 
-利用Github制作的个人博客站点
+用Github制作的个人小站
 
-欢迎访问[cocosongying](http://cocosongying.github.io)
+[https://cocosongying.github.io/](http://cocosongying.github.io)
